@@ -1,0 +1,15 @@
+{
+  "name": "node-express-docker",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^2.0.16",
+    "redis": "^3.0.0"
+  }
+}
